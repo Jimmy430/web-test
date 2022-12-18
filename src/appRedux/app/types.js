@@ -1,0 +1,9 @@
+const APP_FETCHING = 'app/FETCHING'
+const APP_FETCH_SUCCESS = 'app/FETCH_SUCCESS'
+const APP_FETCH_FAIL = 'app/FETCH_FAILED'
+
+export {
+    APP_FETCHING,
+    APP_FETCH_SUCCESS,
+    APP_FETCH_FAIL,
+}

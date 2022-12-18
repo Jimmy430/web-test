@@ -1,0 +1,43 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src/",
+        "paths": {
+            "@common": [
+                "common"
+            ],
+            "@common/*": [
+                "common/*"
+            ],
+            "@components": [
+                "components"
+            ],
+            "@container": [
+                "containers"
+            ],
+            "@context": [
+                "context"
+            ],
+            "@graphql": [
+                "GraphQL"
+            ],
+            "@reducer": [
+                "reducers"
+            ],
+            "@appRedux/*": [
+                "appRedux/*"
+            ],
+            "@services": [
+                "services"
+            ],
+            "@services/*": [
+                "services/*"
+            ],
+            "@styles": [
+                "styles"
+            ]
+        }
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
